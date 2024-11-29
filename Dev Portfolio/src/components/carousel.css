@@ -1,0 +1,20 @@
+.custom-slider {
+    height: 170px;
+    padding: 0px !important;
+}
+
+.custom-slider img {
+    width: 170px;
+    padding: 10px !important;
+    height: 140px;
+    object-fit: cover;
+}
+
+.custom-slider .slick-list {
+    padding: 0 !important;
+}
+
+.custom-slider .slick-slide {
+    margin: 0 !important;
+    padding: 0px 10px 0px 0px !important;
+}

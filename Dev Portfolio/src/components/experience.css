@@ -1,0 +1,35 @@
+.vertical-timeline-element-content {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+
+.vertical-timeline::before {
+    background: transparent !important;
+    border-left: 3px dotted gray;
+}
+
+.vertical-timeline-element-icon {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: -20px !important;
+    background: #fcd34d;
+    color: #fff;
+    border: 1px solid;
+}
+
+.vertical-timeline-element-icon .icon-content {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 1167px) {
+
+    .vertical-timeline-element-icon {
+        margin-left: 0px !important;
+    }
+
+    .vertical-timeline-element--work {
+        text-align: left !important;
+    }
+}
